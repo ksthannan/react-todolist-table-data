@@ -1,0 +1,25 @@
+.app_wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+button {
+  margin: 5px 5px;
+  cursor: pointer;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
